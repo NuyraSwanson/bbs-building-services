@@ -1,8 +1,6 @@
 # BB&S Building Services Website
 
-<p align="center">
-  <img src="assets/images/BB&S.png" alt="BB&S Building Services Business Card" width="700">
-</p>
+![BB&S Building Services Business Card](images/business-card.png)
 
 ## 📖 Project Overview
 
