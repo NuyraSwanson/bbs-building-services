@@ -391,4 +391,15 @@
 
 }
 
+@media (max-width:992px){
+
+    .service-item{
+
+        grid-template-columns:1fr;
+        gap:50px;
+
+    }
+
+}
+
 }

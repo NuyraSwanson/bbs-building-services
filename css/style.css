@@ -1078,3 +1078,112 @@ ul{
 }
 
 
+
+
+/* ========================================= */
+/* Services Hero */
+/* ========================================= */
+
+.internal-hero{
+
+    height:55vh;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    text-align:center;
+    color:#fff;
+
+}
+
+.services-hero{
+
+    background:
+        linear-gradient(rgba(0,0,0,.65), rgba(0,0,0,.65)),
+        url("../images/services/services-banner.jpg");
+
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+
+}
+
+.page-hero-content{
+
+    max-width:800px;
+    margin:0 auto;
+
+}
+
+.page-hero-content h1{
+
+    font-size:4rem;
+    margin-bottom:20px;
+
+}
+
+.page-hero-content p{
+
+    font-size:1.2rem;
+    color:#ddd;
+    line-height:1.8;
+
+}
+
+/* ========================================= */
+/* Service Details */
+/* ========================================= */
+
+.service-item{
+
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:80px;
+    align-items:center;
+    margin-bottom:120px;
+
+}
+
+.service-item:last-child{
+
+    margin-bottom:0;
+
+}
+
+.service-image img{
+
+    width:100%;
+    border-radius:15px;
+    box-shadow:var(--shadow-medium);
+
+}
+
+.service-info h2{
+
+    margin-bottom:25px;
+    font-family:var(--heading-font);
+
+}
+
+.service-info p{
+
+    line-height:1.9;
+    color:#666;
+    margin-bottom:30px;
+
+}
+
+.service-info ul{
+
+    margin-bottom:35px;
+    padding-left:20px;
+
+}
+
+.service-info li{
+
+    margin-bottom:15px;
+    color:#555;
+
+}
