@@ -1187,3 +1187,77 @@ ul{
     color:#555;
 
 }
+
+/* ========================================= */
+/* Projects */
+/* ========================================= */
+
+.projects-intro{
+
+    padding:120px 0 60px;
+
+}
+
+.projects-gallery{
+
+    padding-bottom:120px;
+
+}
+
+.projects-grid{
+
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:35px;
+
+}
+
+.project-card{
+
+    background:#fff;
+    border-radius:15px;
+    overflow:hidden;
+    box-shadow:var(--shadow-light);
+    transition:.3s;
+
+}
+
+.project-card:hover{
+
+    transform:translateY(-10px);
+
+}
+
+.project-card img{
+
+    width:100%;
+    height:260px;
+    object-fit:cover;
+
+}
+
+.project-content{
+
+    padding:30px;
+
+}
+
+.project-content span{
+
+    color:var(--primary);
+    font-weight:600;
+
+}
+
+.project-content h3{
+
+    margin:15px 0;
+
+}
+
+.project-content p{
+
+    color:#666;
+    line-height:1.8;
+
+}
