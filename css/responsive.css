@@ -422,4 +422,20 @@
 
 }
 
+@media (max-width:992px){
+
+    .contact-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .hours-card{
+
+        grid-template-columns:1fr;
+
+    }
+
+}
+
 }
