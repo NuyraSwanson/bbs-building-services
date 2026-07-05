@@ -155,48 +155,55 @@
 
             <!-- Contact Form -->
 
-            <div class="contact-form">
+<div class="contact-form">
 
-                <form>
+    <form id="contact-form">
 
-                    <input
-                        type="text"
-                        placeholder="Full Name"
-                        required>
+        <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Full Name"
+            required>
 
-                    <input
-                        type="email"
-                        placeholder="Email Address"
-                        required>
+        <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Email Address"
+            required>
 
-                    <input
-                        type="tel"
-                        placeholder="Phone Number">
+        <input
+            type="tel"
+            id="phone"
+            name="phone"
+            placeholder="Phone Number">
 
-                    <input
-                        type="text"
-                        placeholder="Subject">
+        <input
+            type="text"
+            id="subject"
+            name="subject"
+            placeholder="Subject">
 
-                    <textarea
-                        rows="6"
-                        placeholder="Tell us about your project..."
-                        required></textarea>
+        <textarea
+            id="message"
+            name="message"
+            rows="6"
+            placeholder="Tell us about your project..."
+            required></textarea>
 
-                    <button
-                        type="submit"
-                        class="btn btn-primary">
+        <button
+            type="submit"
+            class="btn btn-primary"
+            id="submit-btn">
 
-                        Send Message
+            Send Message
 
-                    </button>
+        </button>
 
-                </form>
+    </form>
 
-            </div>
-
-        </div>
-
-    </div>
+</div>
 
 </section>
 
@@ -395,4 +402,40 @@
     </div>
 
 </footer>
+
+<!-- ========================================= -->
+<!-- Custom Alert -->
+<!-- ========================================= -->
+
+<div id="custom-alert" class="custom-alert">
+
+    <div class="alert-content">
+
+        <span id="alert-icon" class="alert-icon">✔</span>
+
+        <div class="alert-text">
+
+            <h3 id="alert-title">Success</h3>
+
+            <p id="alert-message">
+                Your message has been sent successfully.
+            </p>
+
+        </div>
+
+        <button id="alert-close" class="alert-close">
+            &times;
+        </button>
+
+    </div>
+
+</div>
+
+<!-- EmailJS -->
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+<!-- Contact Form -->
+<script src="js/contact.js"></script>
+
+</body>
 </html>
